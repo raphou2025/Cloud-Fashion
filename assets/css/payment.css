@@ -1,0 +1,85 @@
+img {
+  width: 10%;
+  height: 10%;
+  margin: -35px 0px 0px 140px;
+  border-radius: 15px;
+  object-fit: cover;
+  display: block;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.p-5 {
+  margin-top: 60px;
+}
+
+.p-5 .logo-brand {
+  padding: 6px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.logo-brand .content span {
+  color: rgb(215, 125, 15);
+}
+
+.payment {
+  margin: 10px 0px 20px 335px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(215, 125, 15);
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.payment::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(217, 224, 15, 0.466),
+    transparent
+  );
+  animation: shine 2s infinite;
+}
+
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.card {
+  background: rgba(128, 128, 128, 0.26);
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(215, 125, 15, 0.205);
+  padding: 20px;
+}
+.btn {
+  background-color: rgba(215, 125, 15, 0.874);
+  color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #b1bac6;
+  color: rgb(16, 16, 16);
+}

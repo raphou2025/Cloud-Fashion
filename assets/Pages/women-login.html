@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLOUD WEAR</title>
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- swiper.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kantumruy+Pro:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/woman-login.css" />
+
+    <!-- Link Logo -->
+    <link rel="icon" href="../icon/logo.png">
+
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="#" class="navbar-brand">
+            <h1 class="nav-content">
+              CLOUD WEAR
+              <span><i class="fa-brands fa-cotton-bureau"></i></span>
+            </h1>
+          </a>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="./login.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="woman.html" class="nav-link active">Woman</a>
+            </li>
+            <li class="nav-item">
+              <a href="man.html" class="nav-link">Man</a>
+            </li>
+            <li class="nav-item">
+              <a href="accessories.html" class="nav-link">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a href="kids.html" class="nav-link">Kids</a>
+            </li>
+            <li class="nav-item">
+              <a href="aboutus.html" class="nav-link">About Us</a>
+            </li>
+          </ul>
+
+          <!-- -search- -->
+          <form class="search-form">
+            <label for="site-search" class="sr-only">Search</label>
+            <div class="search-wrapper">
+              <input
+                type="text"
+                id="site-search"
+                class="search-input"
+                placeholder="Search..."
+              />
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+          </form>
+          <div class="profile-info">
+            <div class="user-img">
+              <img src="../img/Profile/photo_2025-08-01_14-42-13.jpg" alt="User" />
+            </div>
+            <div class="profile-dropdown">
+              <ul class="profile-drop">
+                <li class="drop-item">
+                  <a class="drop-link" href="#">User Account</a>
+                </li>
+                <li class="drop-item">
+                  <a class="drop-link" href="index.html">Log Out</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section
+      class="hero-banner"
+      style="background-image: url('../img/Hero-Banner/Woman-banner.jpg')"
+    >
+      <div class="banner-overlay">
+        <div class="banner-content">
+          <h1>BEST STYLE FOR WOMAN</h1>
+          <p>Join Our Style Revolution Today</p>
+          <a href="sale.html" class="btn-shop">Shop For Woman</a>
+
+          <button id="toggleTheme" class="dark-btn"><i class="fa fa-moon"></i> Toggle Dark Mode</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trending Section -->
+    <section class="fashion-area">
+      <div class="container">
+        <div class="fashion-header">
+          <div class="fashion-title">
+            <h2 class="fashion-text">Trending Now</h2>
+            <p class="fashion-description">
+              Shop the latest fashion picks here
+            </p>
+          </div>
+          <ul class="fashion-product">
+            <li class="fashion-item">
+              <a class="fashion-link" href="#">New Arrivals</a>
+            </li>
+            <li class="fashion-item">
+              <a class="fashion-link" href="#">Best Seller</a>
+            </li>
+            <li class="fashion-item">
+              <a class="fashion-link" href="#">Accessories</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="row">
+          <div class="col-3">
+            <div class="card">
+              <div class="card-header">
+                <img class="img-1" src="../img/Woman/Woman10.jpg" />
+                <!-- <img class="img-2" src="assets/img/img_a2.jpg" /> -->
+                <div class="group-media">
+                  <a href="#" class="btn-add-to-cart">Add to Cart</a>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="product-info">
+                  <p>Crop Top</p>
+                  <p class="price">$11.59</p>
+                  <div class="color-selection">
+                    <span
+                      class="color-dot"
+                      style="background-color: #000"
+                    ></span>
+                    <span
+                      class="color-dot"
+                      style="background-color: #888"
+                    ></span>
+                    <span
+                      class="color-dot"
+                      style="background-color: #c00"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="card">
+              <div class="card-header">
+                <img class="img-1" src="../img/Woman/Woman2.jpg" />
+                <!-- <img class="img-2" src="assets/img/Man/img_b2.jpg" /> -->
+                <div class="group-media">
+                  <a href="#" class="btn-add-to-cart">Add to Cart</a>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="product-info">
+                  <p>Long Tee</p>
+                  <p class="price">$19.00</p>
+                  <div class="color-selection">
+                    <span
+                      class="color-dot"
+                      style="background-color: #000"
+                    ></span>
+                    <span
+                      class="color-dot"
+                      style="background-color: #888"
+                    ></span>
+                    <span
+                      class="color-dot"
+                      style="background-color: #c00"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="card">
+              <div class="card-header">
+                <img class="img-1" src="../img/Woman/Woman3.jpg" />
+                <!-- <img class="img-2" src="assets/img/img_d2.jpg" /> -->
+                <div class="group-media">
+                  <a href="#" class="btn-add-to-cart">Add to Cart</a>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="product-info">
+                  <p>Cherry Tee</p>
+                  <p class="price">$10.29</p>
+                  <div class="color-selection">
+                    <span
+                      class="color-dot"
+                      style="background-color: #000"
+                    ></span>
+                    <span
+                      class="color-dot"
+                      style="background-color: #888"
+                    ></span>
+                    <span
+                      class="color-dot"
+                      style="background-color: #c00"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="card">
+              <div class="card-header">
+                <img class="img-1" src="../img/Woman/Woman11.jpg" />
+                <!-- <img class="img-2" src="assets/img/img_c2.jpg" /> -->
+                <div class="group-media">
+                  <a href="#" class="btn-add-to-cart">Add to Cart</a>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="product-info">
+                  <p>Crop Tee</p>
+                  <p class="price">$29.59</p>
+                  <div class="color-selection">
+                    <span
+                      class="color-dot"
+                      style="background-color: #000"
+                    ></span>
+                    <span
+                      class="color-dot"
+                      style="background-color: #888"
+                    ></span>
+                    <span
+                      class="color-dot"
+                      style="background-color: #c00"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- =========================== -->
+        </div>
+      </div>
+      <!-- </div>
+  </div> -->
+    </section>
+
+    <section class="b-sellers-area">
+      <div class="container">
+        <div class="b-sellers-header">
+          <div class="b-sellers-title">
+            <div class="b-sellers-flex">
+              <h2 class="b-sellers-text">Best-Sellers</h2>
+              <a href="#" class="btn-view"
+                >View more <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <p class="b-sellers-description">
+              Shop the latest fashion picks here
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-3">
+            <div class="b-sellers-card">
+              <div class="b-sellers-card-header">
+                <img class="img-1" src="../img/Woman/Woman20.jpg" />
+                <!-- <img class="img-2" src="assets/img/img_a2.jpg" /> -->
+                <div class="b-sellers-group-media">
+                  <a href="#" class="b-sellers-btn">Add to Cart</a>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="b-sellers-card-footer">
+                <div class="b-sellers-product-info">
+                  <p>Crop Top</p>
+                  <p class="b-sellers-price">$11.59</p>
+                  <div class="b-sellers-color-selection">
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #000"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #888"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #c00"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="b-sellers-card">
+              <div class="b-sellers-card-header">
+                <img class="img-1" src="../img/Woman/Woman21.JPG" />
+                <!-- <img class="img-2" src="assets/img/img_a2.jpg" /> -->
+                <div class="b-sellers-group-media">
+                  <a href="#" class="b-sellers-btn">Add to Cart</a>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="b-sellers-card-footer">
+                <div class="b-sellers-product-info">
+                  <p>Crop Top</p>
+                  <p class="b-sellers-price">$11.59</p>
+                  <div class="b-sellers-color-selection">
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #000"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #888"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #c00"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="b-sellers-card">
+              <div class="b-sellers-card-header">
+                <img class="img-1" src="../img/Woman/Woman30.jpg" />
+                <!-- <img class="img-2" src="assets/img/img_a2.jpg" /> -->
+                <div class="b-sellers-group-media">
+                  <a href="#" class="b-sellers-btn">Add to Cart</a>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="b-sellers-card-footer">
+                <div class="b-sellers-product-info">
+                  <p>Crop Top</p>
+                  <p class="b-sellers-price">$11.59</p>
+                  <div class="b-sellers-color-selection">
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #000"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #888"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #c00"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="b-sellers-card">
+              <div class="b-sellers-card-header">
+                <img class="img-1" src="../img/Woman/Woman31.jpg" />
+                <!-- <img class="img-2" src="assets/img/img_a2.jpg" /> -->
+                <div class="b-sellers-group-media">
+                  <a href="#" class="b-sellers-btn">Add to Cart</a>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="b-sellers-card-footer">
+                <div class="b-sellers-product-info">
+                  <p>Crop Top</p>
+                  <p class="b-sellers-price">$11.59</p>
+                  <div class="b-sellers-color-selection">
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #000"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #888"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #c00"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================================== -->
+
+          <div class="col-3">
+            <div class="b-sellers-card">
+              <div class="b-sellers-card-header">
+                <img class="img-1" src="../img/Woman/Woman17.jpg" />
+                <!-- <img class="img-2" src="assets/img/img_a2.jpg" /> -->
+                <div class="b-sellers-group-media">
+                  <a href="#" class="b-sellers-btn">Add to Cart</a>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="b-sellers-card-footer">
+                <div class="b-sellers-product-info">
+                  <p>Crop Top</p>
+                  <p class="b-sellers-price">$11.59</p>
+                  <div class="b-sellers-color-selection">
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #000"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #888"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #c00"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="b-sellers-card">
+              <div class="b-sellers-card-header">
+                <img class="img-1" src="../img/Woman/Woman16.jpg" />
+                <!-- <img class="img-2" src="assets/img/img_a2.jpg" /> -->
+                <div class="b-sellers-group-media">
+                  <a href="#" class="b-sellers-btn">Add to Cart</a>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="b-sellers-card-footer">
+                <div class="b-sellers-product-info">
+                  <p>Crop Top</p>
+                  <p class="b-sellers-price">$11.59</p>
+                  <div class="b-sellers-color-selection">
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #000"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #888"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #c00"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="b-sellers-card">
+              <div class="b-sellers-card-header">
+                <!-- <img class="img-1" src="assets/img/Man/Man21.jpg" /> -->
+                <img src="../img/Woman/Woman15.jpg" alt="" />
+                <!-- <img class="img-2" src="assets/img/img_a2.jpg" /> -->
+                <div class="b-sellers-group-media">
+                  <a href="#" class="b-sellers-btn">Add to Cart</a>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="b-sellers-card-footer">
+                <div class="b-sellers-product-info">
+                  <p>Crop Top</p>
+                  <p class="b-sellers-price">$11.59</p>
+                  <div class="b-sellers-color-selection">
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #000"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #888"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #c00"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="b-sellers-card">
+              <div class="b-sellers-card-header">
+                <img class="img-1" src="../img/Woman/Woman18.jpg" />
+                <!-- <img class="img-2" src="assets/img/img_a2.jpg" /> -->
+                <div class="b-sellers-group-media">
+                  <a href="#" class="b-sellers-btn">Add to Cart</a>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="b-sellers-card-footer">
+                <div class="b-sellers-product-info">
+                  <p>Crop Top</p>
+                  <p class="b-sellers-price">$11.59</p>
+                  <div class="b-sellers-color-selection">
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #000"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #888"
+                    ></span>
+                    <span
+                      class="b-sellers-color-dot"
+                      style="background-color: #c00"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="soon-area">
+      <div class="container">
+        <div class="soon-content">
+          <div>
+            <h2 class="soon-text">Coming-Soon...</h2>
+            <p class="soon-description">Shop the latest fashion picks here</p>
+          </div>
+          <a href="#" class="view-more-btn"
+            >View-more <i class="fa-solid fa-chevron-right"></i
+          ></a>
+        </div>
+
+        <div class="poster-content">
+          <div class="row">
+            <div class="col-6">
+              <div class="poster">
+                <div class="poster-header">
+                  <img src="../img/Woman/Woman32.jpg" alt="" />
+                </div>
+                <div class="poster-body">
+                  <h2>Clothing</h2>
+                  <p>New Arriveals</p>
+                  <a href="#" class="btn-poster">Shop Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="soon-pro">
+                    <img src="../img/Hero-Banner/Banner4.jpg" alt="" />
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="soon-pro">
+                    <img src="../img/Hero-Banner/banner5.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="angkor-footer">
+      <div class="container angkor-footer-container">
+        <!-- Column 1: Brand & QR -->
+        <div class="footer-col">
+          <h3 class="footer-brand">
+            CLOUD-WEAR <span><i class="fa-brands fa-cotton-bureau"></i></span>
+          </h3>
+          <img
+            src="../img/Bank/pro (1).png"
+            alt="QR Code"
+            class="qr-code"
+          />
+        </div>
+
+        <!-- Column 2: Loyalty -->
+        <div class="footer-col">
+          <h4>Loyalty</h4>
+          <p><i class="fa-solid fa-heart"></i> Membership & Benefits</p>
+        </div>
+
+        <!-- Column 3: Social Media -->
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <!-- <p><i class="fa-brands fa-facebook-f"></i> Facebook</p> -->
+          <a href="#" class="f-btn"
+            ><i class="fa-brands fa-facebook-f"></i>Facebook</a
+          >
+          <a href="#" class="f-btn"
+            ><i class="fa-brands fa-instagram"></i> Instagram</a
+          >
+          <a href="#" class="f-btn"
+            ><i class="fa-brands fa-tiktok"></i> TikTok</a
+          >
+          <a href="#" class="f-btn"
+            ><i class="fa-brands fa-youtube"></i> YouTube</a
+          >
+        </div>
+
+        <!-- Column 4: Contact -->
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <a href="#" class="f-btn"
+            ><i class="fa-solid fa-envelope"></i> info@angkorluxe.com</a
+          >
+          <a href="#" class="f-btn"
+            ><i class="fa-solid fa-phone"></i> (+855) 081 999 716</a
+          >
+          <a href="#" class="f-btn"
+            ><i class="fa-solid fa-phone"></i> (+855) 061 330 330</a
+          >
+          <a href="#" class="f-btn"
+            ><i class="fa-brands fa-telegram"></i> Telegram</a
+          >
+        </div>
+
+        <!-- Column 5: Payment -->
+        <div class="footer-col">
+          <h4>We Accept</h4>
+          <div class="payment-icons">
+            <a href="../Pages/payment-AC.html" class="btn-bank"
+              ><img src="../img/Bank/AC.jpeg" alt="Visa"
+            /></a>
+            <a href="../Pages/payment and order.html" class="btn-bank"
+              ><img src="../img/Bank/ABA_logo.jpeg" alt="ABA"
+            /></a>
+            <a href="../Pages/payment-Wing.html" class="btn-bank"
+              ><img src="../img/Bank/WING.png" alt="Wing"
+            /></a>
+            <a href="../Pages/payment-vattc.html" class="btn-bank"
+              ><img
+                src="../img/Bank/Vattanac-Bank-Logo-1 copy.png"
+                alt="Vattanac Bank"
+            /></a>
+            <a href="../Pages/payment-Visa.html" class="btn-bank"
+              ><img src="../img/Bank/VISA.webp" alt="Visa"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 ANGKOR-LUXE. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="../js/Dark mode.js"></script>
+  </body>
+</html>

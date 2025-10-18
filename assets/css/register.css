@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+}
+
+.container{
+    margin: auto;
+    width: 1320px;
+}
+
+.text-center{
+    /* background-color: aqua; */
+    padding: 10px 12px;
+    color: #fff;
+}
+
+.text-center .text-brand{
+    font-weight:600;
+    font-size: 32px;
+}
+
+.text-brand span i{
+   color: rgb(215, 125, 15);
+}
+
+.register-content{
+   background-color: rgba(255, 255, 255, 0.628);
+   padding: 20px 24px;
+   border-radius: 20px;
+}
+
+.text-login{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(61, 61, 61);
+}
+
+.text-login .login-link{
+    text-decoration: underline;
+}
+
+.text-footer{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+}

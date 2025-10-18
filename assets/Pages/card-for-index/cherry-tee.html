@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add to card</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kantumruy+Pro:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../../css/add-to-card.css" />
+  </head>
+  <body style="background-image: url(../../img/Hero-Banner/full-shot-cool-people-wearing-ch.jpg);">
+    <header>
+      <a href="#" class="brand">
+        <h1 class="logo-content">
+          CLOUD WEAR
+          <span><i class="fa-brands fa-cotton-bureau"></i></span>
+        </h1>
+      </a>
+    </header>
+    <div class="add-to-card">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="products">
+              <h2>Products Order</h2>
+              <div class="products-detail">
+                <img class="add-to-card-img" src="../../img/Woman/img_d1.jpg" alt="">
+                <span>Cherry-Tee - $10.59</span>
+                <button onclick="addToCart('Cherry-Tee', 10.29)">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card">
+              <h2>Your Card</h2>
+              <div id="card-items"></div>
+              <div class="total">Total: $<span id="total">0</span></div>
+
+              <div class="footer-col">
+          <h4>We Accept</h4>
+          <div class="payment-icons">
+            <a href="../../Pages/payment-AC.html" class="btn-bank"
+              ><img src="../../img/Bank/AC.jpeg" alt="Visa"
+            /></a>
+            <a href="../../Pages/payment and order.html" class="btn-bank"
+              ><img src="../../img/Bank/ABA_logo.jpeg" alt="ABA"
+            /></a>
+            <a href="../../Pages/payment-Wing.html" class="btn-bank"
+              ><img src="../../img/Bank/WING.png" alt="Wing"
+            /></a>
+            <a href="../../Pages/payment-vattc.html" class="btn-bank"
+              ><img
+                src="../../img/Bank/Vattanac-Bank-Logo-1 copy.png"
+                alt="Vattanac Bank"
+            /></a>
+            <a href="../../Pages/payment-Visa.html" class="btn-bank"
+              ><img src="../../img/Bank/VISA.webp" alt="Visa"
+            /></a>
+          </div>
+        </div>
+
+              <!-- <div class="payment-area">
+                <a href="#" class="payment-btn">Payment</a>
+              </div> -->
+            </div>
+
+
+  
+
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../../js/add-to-card.js"></script>
+  </body>
+</html>
